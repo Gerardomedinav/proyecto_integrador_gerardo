@@ -1,0 +1,38 @@
+
+.div#container{
+    width: 50%;
+    height: 100px;
+   
+}
+
+img.img-porfolio {
+width: 40vw;
+height: auto;
+}
+
+@media (max-width:576px){
+    
+    img.img-porfolio{
+    position: absolute;
+    width: 15%;
+    box-shadow: 3px 3px 3px grey;
+    top: 40px;
+    
+    }
+    .div#container{
+        position:absolute;
+        margin-top: none !important;
+    }
+}
+
+
+.row {
+   
+    display: flex;
+   flex-wrap:wrap-reverse; 
+   height: 1;
+
+    }
+  
+    
+  

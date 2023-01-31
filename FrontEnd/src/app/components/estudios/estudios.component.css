@@ -1,0 +1,10 @@
+.carousel-item {
+    justify-content: center !important;
+    margin: 15px;
+    transition: transform 1.0s ease-in-out;
+} 
+p {
+ 
+    margin: 40px;
+    font-size:20px ;
+}
