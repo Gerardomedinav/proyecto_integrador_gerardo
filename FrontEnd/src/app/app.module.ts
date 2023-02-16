@@ -24,6 +24,8 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -47,14 +49,15 @@ import { FooterComponent } from './components/footer/footer.component';
     ExperienciaLaboralComponent,
     ProyectosComponent,
     ContactosComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
-    
-  ],
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
